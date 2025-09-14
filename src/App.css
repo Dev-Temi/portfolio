@@ -1,0 +1,459 @@
+
+body {
+    background-color: #ffffff !important;
+}
+  
+
+
+/* navbar styling */
+
+.bg-body-tertiary {
+
+    background-color: #124170 !important;
+    color: rgb(255, 255, 255) !important; 
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); box-shadow: #000000;
+    
+
+    
+}
+
+
+.container-fluid{
+    display: flex;
+}
+.navbar-nav {
+    flex: 1;
+    
+  
+    
+}
+
+.navbar-nav > a {
+    
+    color: azure !important;
+    padding-left: 20px;
+ 
+}
+
+
+.navbar-nav > a:hover {
+    background-color: #ffffff;
+    color: black !important;
+ 
+}
+
+.container-fluid > a {
+    flex: 2;
+    color: #fffafa;
+    font-weight: bold;
+    /* margin-left: 150px; */
+
+    
+}
+
+
+
+
+/* Hero section styling */
+
+#hero-section {
+    
+    position: relative;
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 400;
+    text-align: center;
+    justify-content: center;
+    background-color: #FCFFE7; 
+   /* #AFDDFF */
+    
+    
+    
+}
+
+.hero-text {
+    flex: 1;
+  text-align: left;
+  padding-top: 100px;
+  padding-left: 5%;
+  padding-right: 10%;
+ 
+  
+
+}
+
+.hero-img {
+   flex: 1;
+   box-shadow: 10px 10px 5px #0303be   inset;
+   border-radius: 5%;
+   margin-left: 5%;
+   margin-right: 10%;
+   padding-left: 30px;
+
+}
+
+.heroImageDiv {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+
+
+   
+
+
+h1 {
+     color: #0303be;
+    padding-top : 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+   color: #124170;
+    margin-top: 25;
+     font-weight: bolder;
+}
+h3 {
+    color: #ffffff;
+}
+
+#hero-section p {
+    text-align: left;
+    color: #000000;
+    padding-bottom: 20px;
+    
+   
+}
+
+#hero-section a {
+    /* position: absolute; */
+   /* margin-top: 30px; */
+    text-decoration: none;
+    background-color: #0303be;
+    padding: 15px 30px;
+    box-shadow: 10px 10px 5px -4px lightblue;
+    color: #ffffff;
+    border-radius: 5%;
+}
+
+#hero-section a:hover {
+    background-color: #fafafa;
+    color: #0303be;
+}
+
+
+
+/* AboutMe styling */
+
+#AboutMe {
+    text-align: left;
+    background-color: #124170;
+    padding-top:100px;
+    padding-bottom: 100PX;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: white;
+}
+#AboutMe h2 {
+    text-align: center;
+    padding-bottom: 50PX;
+    color: #ffffff;
+}
+
+    
+    
+
+/* Services styling */
+    
+#Services {
+    text-align: center;
+    padding-top: 50px;
+    background-color: #FCFFE7;
+}
+#Services h2{
+    color: #0303be;
+}
+
+.ServiceDiv {
+    display: flex;
+    text-align: left;
+    gap: 150px;
+   padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    max-width: 150px;
+    padding-bottom: 50px;
+}
+
+.ServiceDiv h3 {
+    color: #0303be;
+}
+
+
+/* Portfolio Styling */
+
+#Portfolio {
+    text-align: center; 
+    padding-top: 50px;
+    padding-bottom: 300px;
+    background-color: #124170;
+    
+}
+
+#Portfolio h2 {
+    color: #ffffff;
+}
+
+
+
+
+/* ContactMe Styling */
+
+
+#ContactMe{
+    position: relative;
+    padding-top: 50px;
+    background-color: #FCFFE7;
+    padding-bottom: 100px;
+
+
+}
+
+#ContactMe h2 {
+    text-align: center;
+    color: #0303be;
+    padding-bottom: 1%;
+    
+}
+
+#ContactMe p {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+span {
+    font-weight: bolder;
+    color: #0303be;
+}
+
+
+#ContactMe hr {
+    margin: 0% 10%;
+    border-top: solid  1px #0303be;
+    margin-bottom: 5%;
+}
+
+#ContactMe a {
+    position: absolute;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #03be10;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+}
+
+#ContactMe a:hover{
+    background-color: #ffffff;
+    color:#03be10;
+}
+
+
+
+
+/* Footer Styling*/
+
+#Futter {
+    background-color: #124170;
+    color: #ffffff;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 1%;
+    padding-top: 5%;
+}
+
+
+
+
+
+
+
+/* Mobile Styling */ 
+
+
+
+@media(max-width: 900px) {
+ 
+.navbar-nav > a {
+    
+    color: azure !important;
+    margin-left: 0px;
+ 
+}
+
+.container-fluid > a {
+    color: #fffafa;
+    font-weight: bold;
+    margin-left: 20px;
+    
+}
+
+#hero-section {
+    
+    display: flex;
+    gap: 1px;
+    flex-direction: column;
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: #FCFFE7;
+
+}
+
+.hero-text {
+  text-align: center;
+   margin-left: 5%;
+   margin-right: 5%;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+
+.hero-img {
+   box-shadow: 10px 10px 5px #0303be   inset;
+   margin-left: 5%;
+   margin-right: 5%;
+   border-radius: 5%;
+    max-width: 80%;
+    height: 450px;
+}
+
+
+
+   
+
+
+
+
+#hero-section p {
+    text-align: center;
+    color: #000000;
+    padding-left: 20px; 
+    padding-right: 20px;   
+   
+}
+
+#hero-section a {
+    margin-left: -200px;
+    margin-top: 30px;
+    text-decoration: none;
+    background-color: #0303be;
+    padding: 10px 15px;
+    box-shadow: 10px 10px 5px -4px lightblue;
+    color: #ffffff;
+    border-radius: 5%;
+
+} 
+
+
+
+/* AboutMe styling */
+
+#AboutMe {
+    text-align: center;
+    background-color: #124170;
+    padding-top:50px;
+    padding-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+#AboutMe h2 {
+    text-align: center;
+    padding-bottom: 20PX;
+    color: #ffffff;
+}
+
+    
+    
+
+/* Services styling */
+
+#Services {
+   
+    text-align: center;
+    padding-top: 50px;
+    background-color: #FCFFE7;
+    
+}
+#Services h2{
+    color: #0303be;
+}
+
+.ServiceDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+.icon {
+    display: flex;
+   max-width: 100px;
+   margin-left: 35%;
+   margin-top: 10%;
+ 
+}
+
+
+
+.ServiceDiv h3 {
+    color: #0303be;
+}
+ 
+
+/* Portfolio Styling */
+
+ #Portfolio {
+    text-align: center; 
+    padding-top: 50px;
+    padding-bottom: 300px;
+    background-color: #124170;
+    
+}
+
+#Portfolio h2 {
+    color: #ffffff;
+} 
+
+
+
+
+/* ContactMe Styling */
+
+
+
+span {
+    font-weight: bolder;
+    color: #0303be;
+}
+
+
+
+}
+
+
+
+
