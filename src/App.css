@@ -42,6 +42,7 @@ body {
  
 }
 
+
 .container-fluid > a {
     flex: 2;
     color: #fffafa;
@@ -297,6 +298,10 @@ span {
     color: azure !important;
     margin-left: 0px;
  
+}
+
+.toggler-color{
+    color: white !important;
 }
 
 .container-fluid > a {
